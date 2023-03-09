@@ -1,0 +1,21 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Office Network.Switch,0,Common ST,root,none
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_13 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_12 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_7 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_6 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_5 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_4 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_3 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_2 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_1 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_0 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_15 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_14 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_11 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_10 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_9 <-> Switch
+Office Network.Switch,0,Common ST,designated_port,Office Network.node_8 <-> Switch
