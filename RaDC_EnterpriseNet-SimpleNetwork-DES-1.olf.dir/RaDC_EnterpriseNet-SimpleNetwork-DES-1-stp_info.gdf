@@ -1,0 +1,20 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Campus Network.Ingeniería.Switch,0,Common ST,root,none
+Campus Network.Ingeniería.Switch,0,Common ST,designated_port,Campus Network.Ingeniería.LAN <-> Switch
+Campus Network.Ingeniería.Switch,0,Common ST,designated_port,Campus Network.Ingeniería <-> Servidores
+Campus Network.E-Comercio.Switch,0,Common ST,designated_port,Campus Network.E-Comercio.LAN <-> Switch
+Campus Network.E-Comercio.Switch,0,Common ST,root_port,Campus Network.E-Comercio <-> Servidores
+Campus Network.Investigacion.Switch,0,Common ST,designated_port,Campus Network.Investigacion.LAN <-> Switch
+Campus Network.Investigacion.Switch,0,Common ST,root_port,Campus Network.Investigacion <-> Servidores
+Campus Network.Ventas.Switch,0,Common ST,designated_port,Campus Network.Ventas.LAN <-> Switch
+Campus Network.Ventas.Switch,0,Common ST,root_port,Campus Network.Ventas <-> Servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.Servidores.Servidor de BD <-> Switch de servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.Servidores.Servidor de ficheros <-> Switch de servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.Servidores.Servidor web <-> Switch de servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,root_port,Campus Network.Ingeniería <-> Servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.Investigacion <-> Servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.E-Comercio <-> Servidores
+Campus Network.Servidores.Switch de servidores,0,Common ST,designated_port,Campus Network.Ventas <-> Servidores
