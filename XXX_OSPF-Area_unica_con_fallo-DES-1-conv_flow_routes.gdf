@@ -1,0 +1,5 @@
+
+
+Campus Network.RouterA,Campus Network.RouterC,161.65,0,RouterA --> RouterC,Campus Network.RouterA,Campus Network.RouterA <-> RouterC
+
+Campus Network.RouterB,Campus Network.RouterH,162.99,1,RouterB --> RouterH,Campus Network.RouterB,Campus Network.RouterB <-> RouterC,Campus Network.RouterC,Campus Network.RouterC <-> RouterE,Campus Network.RouterE,Campus Network.RouterE <-> RouterG,Campus Network.RouterG,Campus Network.RouterG <-> RouterH
